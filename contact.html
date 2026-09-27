@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Peter about a software project or collaboration.">
+  <title>Contact | Peter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html" aria-label="Peter home"><span>P</span>ETER<span class="brand-dot">.</span></a><button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button><nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="portfolio.html">Portfolio</a><a class="active" href="contact.html">Contact</a><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme"><i class="fa-solid fa-moon" id="theme-icon"></i></button></nav></div></header>
+  <main>
+    <section class="page-hero container"><p class="eyebrow reveal"><span class="eyebrow-line"></span> Say hello</p><h1 class="reveal reveal-delay">Have an idea?<br><em>Let’s talk.</em></h1><p class="page-lede reveal reveal-delay-2">Tell me what you’re working on. I’ll get back to you and we can figure out the next step together.</p></section>
+    <section class="section container contact-grid">
+      <div class="contact-details reveal">
+        <p class="kicker">Reach me directly</p>
+        <h2>Good conversations start with a simple message.</h2>
+        <a class="contact-link" href="mailto:sebitm74@gmail.com"><span class="contact-icon"><i class="fa-solid fa-envelope"></i></span><span><small>Email</small>sebitm74@gmail.com</span></a>
+        <a class="contact-link" href="tel:+256786188170"><span class="contact-icon"><i class="fa-solid fa-phone"></i></span><span><small>Phone</small>+256 786 188 170</span></a>
+      </div>
+      <form class="contact-form reveal reveal-delay" id="contact-form">
+        <label for="name">Your name<input id="name" name="name" type="text" placeholder="Jane Doe" autocomplete="name" required></label>
+        <label for="email">Email address<input id="email" name="email" type="email" placeholder="jane@example.com" autocomplete="email" required></label>
+        <label for="subject">What can I help with?<input id="subject" name="subject" type="text" placeholder="A new web product" required></label>
+        <label for="message">Your message<textarea id="message" name="message" rows="5" placeholder="Tell me a little about your idea..." required></textarea></label>
+        <button class="button button-primary" type="submit">Send message <i class="fa-solid fa-arrow-right"></i></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span class="current-year"></span> Peter. Built with intention.</p><a class="text-link" href="index.html">Back to home <i class="fa-solid fa-arrow-right"></i></a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

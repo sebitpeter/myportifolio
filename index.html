@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Peter's software engineering portfolio — web, mobile and AI solutions.">
+  <title>Peter | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Peter home"><span>P</span>ETER<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Software engineer · problem solver</p>
+        <h1>Turning ideas into <em>useful</em> digital products.</h1>
+        <p class="hero-text">I’m Peter, a software engineer who builds thoughtful web, mobile and AI-powered solutions that make everyday work simpler.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="portfolio.html">Explore my work <i class="fa-solid fa-arrow-right"></i></a>
+          <a class="button button-ghost" href="contact.html">Let’s talk</a>
+        </div>
+        <div class="hero-meta">
+          <span><i class="fa-solid fa-circle-check"></i> Open to opportunities</span>
+          <span><i class="fa-solid fa-location-dot"></i> Available worldwide</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal reveal-delay">
+        <div class="portrait-glow"></div>
+        <div class="portrait-frame">
+          <img src="Profile.jpg" alt="Portrait of Peter" fetchpriority="high">
+        </div>
+        <div class="floating-card floating-card-top"><strong>3+</strong><span>Ideas shipped</span></div>
+        <div class="floating-card floating-card-bottom"><i class="fa-solid fa-code"></i><span>Build with purpose</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><strong>01</strong><span>Discover the problem</span></div>
+        <div><strong>02</strong><span>Design the right solution</span></div>
+        <div><strong>03</strong><span>Build, test & improve</span></div>
+      </div>
+    </section>
+
+    <section class="section container intro-grid">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A little about me</p>
+        <h2>Technology should feel <em>human.</em></h2>
+      </div>
+      <div class="intro-copy reveal reveal-delay">
+        <p>I enjoy working at the intersection of clean engineering and meaningful outcomes. From the first sketch to the final interaction, I focus on clarity, reliability and the people using the product.</p>
+        <a class="text-link" href="about.html">More about my journey <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span class="current-year"></span> Peter. Built with intention.</p>
+      <a class="text-link" href="contact.html">Start a conversation <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
